@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box
+}
+
+body{
+
+	background-color: #e1e1ea;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+}
+
+.menu{
+	list-style-type: none;
+  	overflow: hidden;
+	background-color: black;
+
+	 
+}
+
+#menuButton{
+
+	font-size: 20px;
+}
+
+li{
+
+	float:right
+	
+}
+
+li button{
+
+	display:block ;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+#menuButton:hover{
+
+	background-color: red;
+	transition-duration:2s;
+	width: 200px;
+}
+
+#bt-enviar{
+
+	display: block;
+	padding: 10px 40px;
+	background-color:black;
+	color: #e1e1ea;
+	font-size: 20px;
+
+}
+
+
+
+
+.containerFormularios{
+
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 500px;
+	margin-bottom: 500px;
+	
+	
+	
+}
+
+.formulario{
+	
+	margin-top: 40px;
+	max-width:600px;
+	min-height:600px;
+	padding: 2rem;
+	box-shadow: 5px 5px 15px rgba(0,0, 0.6);
+	background-color:blue;
+	border-radius: 8px;
+  		
+
+}
+#produtos{
+	display: none;
+}
+
+
+#cliente{
+
+	display: none;
+}
+
+input{
+
+	width: 100%;
+	padding: 10px 20px;
+}
+
+h1,h3{
+	color:blue;
+	text-align: center;
+}
+
+footer{
+	background-color: black;
+	color: #e1e1ea;
+	text-align: center;
+	height: 100px;
+}
+
